@@ -26,6 +26,9 @@ export const renderer = jsxRenderer(({ children, title }) => {
               <a href="/pricing" class="text-gray-300 hover:text-white transition">Pricing</a>
               <a href="/about" class="text-gray-300 hover:text-white transition">About</a>
               <a href="/faq" class="text-gray-300 hover:text-white transition">FAQ</a>
+              <a href="/downloads" class="text-gray-300 hover:text-white transition">
+                <i class="fas fa-download mr-1"></i>Docs
+              </a>
             </div>
             <a href="/waitlist" class="btn btn-primary">
               <i class="fas fa-user-plus mr-2"></i>
@@ -53,6 +56,9 @@ export const renderer = jsxRenderer(({ children, title }) => {
                   <li><a href="/curriculum" class="hover:text-white">Curriculum</a></li>
                   <li><a href="/pricing" class="hover:text-white">Pricing</a></li>
                   <li><a href="/faq" class="hover:text-white">FAQ</a></li>
+                  <li><a href="/downloads" class="hover:text-white">
+                    <i class="fas fa-download mr-1"></i>Documentation
+                  </a></li>
                 </ul>
               </div>
               <div>

@@ -10,6 +10,7 @@ app.use('/api/*', cors())
 
 // Serve static files
 app.use('/static/*', serveStatic({ root: './public' }))
+app.use('/docs/*', serveStatic({ root: './' }))
 
 // Use renderer for HTML pages
 app.use(renderer)
@@ -649,6 +650,181 @@ app.get('/contact', (c) => {
             Have questions? Join our waitlist and we'll reach out to you personally.
           </p>
           <a href="/waitlist" class="btn btn-primary">Join Waitlist</a>
+        </div>
+      </section>
+    </>
+  )
+})
+
+// Downloads page
+app.get('/downloads', (c) => {
+  return c.render(
+    <>
+      <section class="hero py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 class="text-5xl font-bold mb-6">
+            Documentation <span class="gradient-text">Downloads</span>
+          </h1>
+          <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+            Download comprehensive guides for setup, deployment, and launch strategy
+          </p>
+        </div>
+      </section>
+      
+      <section class="py-20 bg-slate-900">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-3 gap-8">
+            
+            {/* README Download */}
+            <div class="card text-center">
+              <div class="text-6xl mb-4">📘</div>
+              <h3 class="text-2xl font-bold mb-3">README</h3>
+              <p class="text-gray-400 mb-4 text-sm">
+                Complete technical documentation including setup, features, architecture, and deployment instructions.
+              </p>
+              <div class="text-gray-500 text-sm mb-4">
+                <i class="fas fa-file-alt mr-2"></i> 8.8 KB
+              </div>
+              <a href="https://github.com/YOUR-USERNAME/futures-trading-academy/blob/main/README.md" target="_blank" class="btn btn-primary w-full">
+                <i class="fas fa-external-link-alt mr-2"></i>
+                View README
+              </a>
+              <p class="text-gray-500 text-xs mt-2">Available in project root directory</p>
+            </div>
+
+            {/* Deployment Guide Download */}
+            <div class="card text-center">
+              <div class="text-6xl mb-4">🚀</div>
+              <h3 class="text-2xl font-bold mb-3">Deployment Guide</h3>
+              <p class="text-gray-400 mb-4 text-sm">
+                Step-by-step integration guide for external services, setup checklists, and launch day procedures.
+              </p>
+              <div class="text-gray-500 text-sm mb-4">
+                <i class="fas fa-file-alt mr-2"></i> 11.4 KB
+              </div>
+              <a href="https://github.com/YOUR-USERNAME/futures-trading-academy/blob/main/DEPLOYMENT_GUIDE.md" target="_blank" class="btn btn-gold w-full">
+                <i class="fas fa-external-link-alt mr-2"></i>
+                View Guide
+              </a>
+              <p class="text-gray-500 text-xs mt-2">Available in project root directory</p>
+            </div>
+
+            {/* Project Summary Download */}
+            <div class="card text-center">
+              <div class="text-6xl mb-4">📊</div>
+              <h3 class="text-2xl font-bold mb-3">Project Summary</h3>
+              <p class="text-gray-400 mb-4 text-sm">
+                Executive overview with launch strategy, success metrics, cost breakdown, and quick wins checklist.
+              </p>
+              <div class="text-gray-500 text-sm mb-4">
+                <i class="fas fa-file-alt mr-2"></i> 10.4 KB
+              </div>
+              <a href="https://github.com/YOUR-USERNAME/futures-trading-academy/blob/main/PROJECT_SUMMARY.md" target="_blank" class="btn btn-secondary w-full">
+                <i class="fas fa-external-link-alt mr-2"></i>
+                View Summary
+              </a>
+              <p class="text-gray-500 text-xs mt-2">Available in project root directory</p>
+            </div>
+
+          </div>
+
+          {/* GitHub Repository Info */}
+          <div class="text-center mt-12">
+            <div class="card bg-blue-900/20 border-blue-500/30">
+              <div class="mb-4">
+                <i class="fas fa-info-circle text-4xl text-blue-400"></i>
+              </div>
+              <h3 class="text-xl font-bold mb-3">How to Access Documentation</h3>
+              <p class="text-gray-300 mb-4">
+                All documentation files are included in the project root directory when you clone or deploy this project.
+              </p>
+              <div class="grid md:grid-cols-2 gap-4 text-left max-w-2xl mx-auto">
+                <div class="bg-slate-800 p-4 rounded-lg">
+                  <h4 class="font-bold mb-2 text-blue-400">
+                    <i class="fas fa-folder mr-2"></i>Local Access
+                  </h4>
+                  <p class="text-sm text-gray-400">
+                    Files are in your project root:
+                  </p>
+                  <code class="text-xs bg-slate-900 p-2 block mt-2 rounded">
+                    webapp/README.md<br/>
+                    webapp/DEPLOYMENT_GUIDE.md<br/>
+                    webapp/PROJECT_SUMMARY.md
+                  </code>
+                </div>
+                <div class="bg-slate-800 p-4 rounded-lg">
+                  <h4 class="font-bold mb-2 text-green-400">
+                    <i class="fab fa-github mr-2"></i>GitHub Access
+                  </h4>
+                  <p class="text-sm text-gray-400">
+                    View online after pushing to GitHub:
+                  </p>
+                  <a href="https://github.com" target="_blank" class="text-xs text-blue-400 hover:underline block mt-2">
+                    github.com/your-repo →
+                  </a>
+                </div>
+              </div>
+              <p class="text-gray-500 text-sm mt-4">
+                All files are in Markdown format (.md) - open with any text editor, VS Code, or online Markdown viewer
+              </p>
+            </div>
+          </div>
+
+          {/* Documentation Overview */}
+          <div class="card mt-12">
+            <h3 class="text-2xl font-bold mb-6 text-center">What's Included</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+              <div>
+                <h4 class="font-bold mb-2 text-blue-400">README.md</h4>
+                <ul class="text-sm text-gray-400 space-y-1">
+                  <li>• Project overview</li>
+                  <li>• Tech stack details</li>
+                  <li>• Setup instructions</li>
+                  <li>• Available scripts</li>
+                  <li>• Architecture info</li>
+                  <li>• Performance notes</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold mb-2 text-yellow-400">DEPLOYMENT_GUIDE.md</h4>
+                <ul class="text-sm text-gray-400 space-y-1">
+                  <li>• Service integration</li>
+                  <li>• Setup checklists</li>
+                  <li>• API configurations</li>
+                  <li>• Launch day plan</li>
+                  <li>• Marketing strategy</li>
+                  <li>• Troubleshooting</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold mb-2 text-green-400">PROJECT_SUMMARY.md</h4>
+                <ul class="text-sm text-gray-400 space-y-1">
+                  <li>• Executive overview</li>
+                  <li>• Cost breakdown</li>
+                  <li>• Success metrics</li>
+                  <li>• Quick wins list</li>
+                  <li>• Iteration plan</li>
+                  <li>• Launch strategy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Help Section */}
+          <div class="card mt-8 bg-blue-900/20 border-blue-500/30">
+            <div class="flex items-start">
+              <div class="text-3xl mr-4">💡</div>
+              <div>
+                <h4 class="font-bold mb-2">Need Help?</h4>
+                <p class="text-gray-400 text-sm">
+                  Start with the <strong>README.md</strong> for technical setup, then follow the 
+                  <strong>DEPLOYMENT_GUIDE.md</strong> for integration. Use <strong>PROJECT_SUMMARY.md</strong> 
+                  for business strategy and launch planning.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </>
