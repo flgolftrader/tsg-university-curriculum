@@ -1,6 +1,6 @@
-# Futures Trading Academy - Landing Page
+# The Speculators Guild University - Complete Transformation Platform
 
-A professional marketing and landing page for a comprehensive futures trading education ecosystem, built with Hono framework and deployed on Cloudflare Pages.
+A professional marketing and landing page for a comprehensive life transformation ecosystem combining trading mastery, lifestyle design, financial health, fitness optimization, and wealth creation. Built with Hono framework and deployed on Cloudflare Pages.
 
 ## 🌐 Live URLs
 
@@ -10,14 +10,15 @@ A professional marketing and landing page for a comprehensive futures trading ed
 
 ## 📋 Project Overview
 
-This is a **marketing and landing page** for the Futures Trading Academy platform. The actual educational content (LMS, video hosting, live trading sessions) will be delivered through external services, while this site serves as the front door for:
+This is a **marketing and landing page** for The Speculators Guild University platform. The actual educational content (LMS, video hosting, live sessions) will be delivered through external services, while this site serves as the front door for:
 
-- Course information and curriculum showcase
-- Pricing tier display
-- Email waitlist capture
-- Student testimonials and success stories
-- About us and instructor profiles
-- FAQ and support information
+- **8 Comprehensive Campuses**: Trading, Price Action, Risk Management, Professional Execution, Lifestyle Design, Financial Health, Fitness & Health, Wealth Creation
+- Complete curriculum showcase (64 weeks, 320+ lessons)
+- Pricing tier display with holistic transformation packages
+- Email waitlist capture for complete speculator training
+- Member testimonials and transformation stories
+- Guild information and mentor profiles
+- FAQ and community support information
 
 ## ✨ Features
 
@@ -41,19 +42,24 @@ This is a **marketing and landing page** for the Futures Trading Academy platfor
 - 🎯 Urgent final CTA with countdown timer
 - Multiple psychological triggers throughout
 
-✅ **Enhanced Curriculum Page** 📚 DETAILED
-- 🎓 Week-by-week breakdown for all 4 campuses
-- 🗺️ Visual learning journey timeline with 4 phases
-- 📋 Campus 1 detailed: 8 weeks of specific lessons
-  - Week 1: Market Structure Fundamentals
-  - Week 2: Auction Market Theory Deep Dive
-  - Week 3: Smart Money Concepts (SMC)
-  - Weeks 4-8: Volume Profile, Market Phases, Sessions, Timeframes, Assessment
-- 📈 Campuses 2-4 overview with transformation promises
-- 📊 Stats: 32 weeks, 160+ lessons, 40+ live sessions
+✅ **Enhanced Curriculum Page** 📚 DETAILED (8 CAMPUSES)
+
+**Trading Mastery (Campuses 1-4):**
+- 🎓 Campus 1: Foundations (8 weeks) - Market structure, auction theory, smart money
+- 📈 Campus 2: Price Action (10 weeks) - Order flow, liquidity engineering, setups
+- 🛡️ Campus 3: Risk Management (6 weeks) - Position sizing, psychology, drawdown management
+- ⚡ Campus 4: Professional Execution (8 weeks) - Live trading, session bias, workflows
+
+**Holistic Life Mastery (Campuses 5-8):**
+- 🌴 Campus 5: Lifestyle Design (8 weeks) - Location freedom, productivity systems, optimization
+- 💰 Campus 6: Financial Health (8 weeks) - Cash flow, tax strategies, asset protection
+- 💪 Campus 7: Fitness & Health (8 weeks) - Strength training, nutrition, longevity protocols
+- 🏛️ Campus 8: Wealth Creation (8 weeks) - Real estate, dividends, multi-stream income, legacy
+
+- 📊 Stats: 64 weeks, 320+ lessons, 8 complete campuses
 - 🏆 Transformation highlights for each campus
 - 🎯 Clear CTAs linking to pricing and waitlist
-- 💪 Learning outcomes and skill progression
+- 💪 Complete speculator development pathway
 
 ✅ **Enhanced Pricing Page** 💰 VALUE-STACKED
 - 🔥 Urgent announcement bar (23 spots left, prices increase in 4 days)
