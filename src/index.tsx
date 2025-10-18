@@ -5,6 +5,7 @@ import { renderer } from './renderer'
 import { enhancedHomePage } from './pages/home-enhanced'
 import { enhancedCurriculumPage } from './pages/curriculum-enhanced'
 import { enhancedPricingPage } from './pages/pricing-enhanced'
+import { downloadsPage } from './pages/downloads'
 
 const app = new Hono()
 
@@ -13,7 +14,6 @@ app.use('/api/*', cors())
 
 // Serve static files
 app.use('/static/*', serveStatic({ root: './public' }))
-app.use('/docs/*', serveStatic({ root: './' }))
 
 // Use renderer for HTML pages
 app.use(renderer)
@@ -46,6 +46,15 @@ app.get('/curriculum', (c) => {
 app.get('/pricing', (c) => {
   return c.render(
     enhancedPricingPage()
+  )
+})
+
+// ==========================================
+// DOWNLOADS PAGE - CURRICULUM FILES
+// ==========================================
+app.get('/downloads', (c) => {
+  return c.html(
+    downloadsPage()
   )
 })
 
