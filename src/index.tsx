@@ -3,6 +3,8 @@ import { cors } from 'hono/cors'
 import { serveStatic } from 'hono/cloudflare-workers'
 import { renderer } from './renderer'
 import { enhancedHomePage } from './pages/home-enhanced'
+import { enhancedCurriculumPage } from './pages/curriculum-enhanced'
+import { enhancedPricingPage } from './pages/pricing-enhanced'
 
 const app = new Hono()
 
@@ -26,32 +28,11 @@ app.get('/', (c) => {
 })
 
 // ==========================================
-// CURRICULUM PAGE  
+// CURRICULUM PAGE - ENHANCED VERSION
 // ==========================================
 app.get('/curriculum', (c) => {
   return c.render(
-    <>
-      {/* Page content - see previous version for full curriculum page */}
-      <section class="hero py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 class="text-5xl font-bold mb-6">
-            Complete <span class="gradient-text">Trading Curriculum</span>
-          </h1>
-          <p class="text-xl text-gray-300 max-w-3xl mx-auto">
-            A comprehensive, step-by-step journey from retail trader to institutional-level thinking
-          </p>
-        </div>
-      </section>
-      
-      <section class="py-20 bg-slate-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p class="text-gray-400 mb-8">
-            Detailed curriculum pages coming soon. In the meantime, view our overview on the home page.
-          </p>
-          <a href="/" class="btn btn-primary">Back to Home</a>
-        </div>
-      </section>
-    </>
+    enhancedCurriculumPage()
   )
 })
 
@@ -59,41 +40,12 @@ app.get('/curriculum', (c) => {
 // ADDITIONAL ROUTE IMPORTS
 // ==========================================
 
-// Pricing page
+// ==========================================
+// PRICING PAGE - ENHANCED VERSION
+// ==========================================
 app.get('/pricing', (c) => {
-  return c.html(
-    `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing - Futures Trading Academy</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="/static/styles.css" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar py-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-            <a href="/" class="text-2xl font-bold gradient-text">Trading Academy</a>
-            <div class="hidden md:flex space-x-6">
-                <a href="/" class="text-gray-300 hover:text-white">Home</a>
-                <a href="/curriculum" class="text-gray-300 hover:text-white">Curriculum</a>
-                <a href="/pricing" class="text-white font-semibold">Pricing</a>
-                <a href="/about" class="text-gray-300 hover:text-white">About</a>
-            </div>
-            <a href="/waitlist" class="btn btn-primary">Join Waitlist</a>
-        </div>
-    </nav>
-    <section class="py-20 bg-slate-900 min-h-screen flex items-center justify-center">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h1 class="text-5xl font-bold mb-6">Pricing <span class="gradient-text">Coming Soon</span></h1>
-            <p class="text-xl text-gray-400 mb-8">We're finalizing our pricing tiers. Join the waitlist to get notified when we launch!</p>
-            <a href="/waitlist" class="btn btn-primary">Join Waitlist</a>
-        </div>
-    </section>
-</body>
-</html>`
+  return c.render(
+    enhancedPricingPage()
   )
 })
 
