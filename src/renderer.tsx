@@ -6,8 +6,8 @@ export const renderer = jsxRenderer(({ children, title }) => {
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Master futures trading with institutional strategies - Auction Market Theory, Smart Money Concepts, and CME Fair Price Redelivery" />
-        <title>{title || 'Futures Trading Academy - Professional Trading Education'}</title>
+        <meta name="description" content="The Speculators Guild University - Master trading, lifestyle design, financial health, fitness, and wealth creation. Become the complete speculator." />
+        <title>{title || 'The Speculators Guild University - Complete Speculator Education'}</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet" />
         <link href="/static/styles.css" rel="stylesheet" />
@@ -17,8 +17,8 @@ export const renderer = jsxRenderer(({ children, title }) => {
         <nav class="navbar py-4">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
             <a href="/" class="text-2xl font-bold gradient-text">
-              <i class="fas fa-chart-line mr-2"></i>
-              Trading Academy
+              <i class="fas fa-university mr-2"></i>
+              The Speculators Guild
             </a>
             <div class="hidden md:flex space-x-6">
               <a href="/" class="text-gray-300 hover:text-white transition">Home</a>
@@ -45,9 +45,9 @@ export const renderer = jsxRenderer(({ children, title }) => {
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-4 gap-8 mb-8">
               <div>
-                <h3 class="text-xl font-bold gradient-text mb-4">Trading Academy</h3>
+                <h3 class="text-xl font-bold gradient-text mb-4">The Speculators Guild</h3>
                 <p class="text-gray-400">
-                  Professional futures trading education with institutional strategies
+                  Master trading, lifestyle, financial health, fitness, and wealth creation. Become the complete speculator.
                 </p>
               </div>
               <div>
@@ -79,7 +79,7 @@ export const renderer = jsxRenderer(({ children, title }) => {
               </div>
             </div>
             <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
-              <p>&copy; 2025 Futures Trading Academy. All rights reserved.</p>
+              <p>&copy; 2025 The Speculators Guild University. All rights reserved.</p>
               <div class="mt-4 flex justify-center space-x-6">
                 <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="hover:text-white"><i class="fab fa-youtube"></i></a>

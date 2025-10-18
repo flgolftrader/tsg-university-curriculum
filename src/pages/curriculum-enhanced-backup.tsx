@@ -3,8 +3,8 @@ export const enhancedCurriculumPage = () => (
   <>
     {/* Urgent Banner */}
     <div class="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 px-4 text-center font-bold">
-      <i class="fas fa-university mr-2"></i>
-      64-Week Complete Speculator Training • 8 Comprehensive Campuses • Transform Your Life
+      <i class="fas fa-graduation-cap mr-2"></i>
+      32-Week Comprehensive Training • Start Anytime • Learn At Your Own Pace
     </div>
 
     {/* Hero Section */}
@@ -12,35 +12,34 @@ export const enhancedCurriculumPage = () => (
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h1 class="text-5xl md:text-6xl font-bold mb-6">
-            The Complete <span class="gradient-text">Speculator Curriculum</span>
+            Complete <span class="gradient-text">Trading Curriculum</span>
           </h1>
           <p class="text-2xl text-gray-300 mb-4 max-w-4xl mx-auto">
-            Transform Into The Ultimate Speculator: Master Trading, Wealth, Health & Lifestyle
+            Your Complete Roadmap from Retail Trader to Institutional Professional
           </p>
           <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-            8 comprehensive campuses covering 64 weeks of intensive training. 
-            Go from complete beginner to elite speculator with institutional trading mastery, 
-            optimized lifestyle design, peak physical fitness, financial independence, and multi-stream wealth creation.
+            4 comprehensive campuses covering 32 weeks of intensive training, 
+            plus 2 advanced masterclasses to take you from complete beginner to trading with institutional precision
           </p>
         </div>
 
         {/* Quick Stats */}
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
           <div class="stat-card border-blue-500/30">
-            <div class="stat-number text-blue-400">64</div>
+            <div class="stat-number text-blue-400">32</div>
             <div class="text-gray-400">Weeks Training</div>
           </div>
           <div class="stat-card border-green-500/30">
-            <div class="stat-number text-green-400">320+</div>
+            <div class="stat-number text-green-400">160+</div>
             <div class="text-gray-400">Video Lessons</div>
           </div>
           <div class="stat-card border-purple-500/30">
-            <div class="stat-number text-purple-400">8</div>
-            <div class="text-gray-400">Complete Campuses</div>
+            <div class="stat-number text-purple-400">40+</div>
+            <div class="text-gray-400">Live Sessions</div>
           </div>
           <div class="stat-card border-yellow-500/30">
-            <div class="stat-number text-yellow-400">100%</div>
-            <div class="text-gray-400">Life Transformation</div>
+            <div class="stat-number text-yellow-400">24/7</div>
+            <div class="text-gray-400">Community Access</div>
           </div>
         </div>
       </div>
@@ -530,235 +529,15 @@ export const enhancedCurriculumPage = () => (
       </div>
     </section>
 
-    {/* NEW CAMPUSES 5-8: HOLISTIC SPECULATOR DEVELOPMENT */}
-    <section class="py-20 bg-slate-950">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-bold mb-4">
-            Beyond Trading: <span class="gradient-text">Complete Life Mastery</span>
-          </h2>
-          <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-            True wealth isn't just money—it's health, time freedom, relationships, and legacy. 
-            Master all 4 pillars of the complete speculator lifestyle.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-8">
-          {/* Campus 5: Lifestyle Design */}
-          <div class="card border-2 border-indigo-500">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 rounded-full bg-gradient-to-r from-indigo-500 to-blue-500 flex items-center justify-center text-white text-2xl font-bold">
-                05
-              </div>
-              <div>
-                <h3 class="text-3xl font-bold">Lifestyle Design Campus</h3>
-                <div class="flex gap-2 mt-2">
-                  <span class="badge badge-blue text-xs">8 Weeks</span>
-                  <span class="badge badge-blue text-xs">32 Lessons</span>
-                </div>
-              </div>
-            </div>
-
-            <p class="text-gray-300 mb-6">
-              Design the lifestyle of ultimate freedom—work from anywhere, optimize your time, build powerful routines
-            </p>
-
-            <div class="space-y-4">
-              <div class="border-l-4 border-indigo-500 pl-4">
-                <div class="font-bold text-indigo-400">Weeks 33-36: Time & Location Freedom</div>
-                <p class="text-sm text-gray-400">
-                  Digital nomad strategies, remote work optimization, travel while trading, location independence
-                </p>
-              </div>
-              <div class="border-l-4 border-indigo-500 pl-4">
-                <div class="font-bold text-indigo-400">Weeks 37-40: Daily Optimization</div>
-                <p class="text-sm text-gray-400">
-                  Morning routines, productivity systems, time blocking, energy management, work-life integration
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-6 p-4 bg-indigo-900/20 rounded border border-indigo-500/30">
-              <div class="font-bold text-indigo-400 mb-2">After Campus 5:</div>
-              <p class="text-sm text-gray-400">
-                You'll design your ideal lifestyle, work from anywhere, master your time, and live with complete freedom
-              </p>
-            </div>
-          </div>
-
-          {/* Campus 6: Financial Health */}
-          <div class="card border-2 border-emerald-500">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 flex items-center justify-center text-white text-2xl font-bold">
-                06
-              </div>
-              <div>
-                <h3 class="text-3xl font-bold">Financial Health Campus</h3>
-                <div class="flex gap-2 mt-2">
-                  <span class="badge badge-green text-xs">8 Weeks</span>
-                  <span class="badge badge-green text-xs">32 Lessons</span>
-                </div>
-              </div>
-            </div>
-
-            <p class="text-gray-300 mb-6">
-              Optimize your entire financial life—budgeting, tax strategies, debt elimination, asset protection
-            </p>
-
-            <div class="space-y-4">
-              <div class="border-l-4 border-emerald-500 pl-4">
-                <div class="font-bold text-emerald-400">Weeks 41-44: Financial Foundation</div>
-                <p class="text-sm text-gray-400">
-                  Cash flow optimization, emergency funds, debt strategies, credit mastery, expense tracking
-                </p>
-              </div>
-              <div class="border-l-4 border-emerald-500 pl-4">
-                <div class="font-bold text-emerald-400">Weeks 45-48: Tax & Protection</div>
-                <p class="text-sm text-gray-400">
-                  Tax optimization, entity structures (LLC, S-Corp), asset protection, estate planning basics
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-6 p-4 bg-emerald-900/20 rounded border border-emerald-500/30">
-              <div class="font-bold text-emerald-400 mb-2">After Campus 6:</div>
-              <p class="text-sm text-gray-400">
-                You'll have bulletproof financial health, optimized taxes, protected assets, and complete financial clarity
-              </p>
-            </div>
-          </div>
-
-          {/* Campus 7: Fitness & Health */}
-          <div class="card border-2 border-orange-500">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center text-white text-2xl font-bold">
-                07
-              </div>
-              <div>
-                <h3 class="text-3xl font-bold">Fitness & Health Campus</h3>
-                <div class="flex gap-2 mt-2">
-                  <span class="badge badge-gold text-xs">8 Weeks</span>
-                  <span class="badge badge-gold text-xs">32 Lessons</span>
-                </div>
-              </div>
-            </div>
-
-            <p class="text-gray-300 mb-6">
-              Peak physical and mental performance—strength training, nutrition, sleep optimization, longevity protocols
-            </p>
-
-            <div class="space-y-4">
-              <div class="border-l-4 border-orange-500 pl-4">
-                <div class="font-bold text-orange-400">Weeks 49-52: Physical Optimization</div>
-                <p class="text-sm text-gray-400">
-                  Strength training programs, nutrition fundamentals, meal planning, supplement protocols
-                </p>
-              </div>
-              <div class="border-l-4 border-orange-500 pl-4">
-                <div class="font-bold text-orange-400">Weeks 53-56: Recovery & Longevity</div>
-                <p class="text-sm text-gray-400">
-                  Sleep optimization, stress management, meditation, biohacking, longevity strategies
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-6 p-4 bg-orange-900/20 rounded border border-orange-500/30">
-              <div class="font-bold text-orange-400 mb-2">After Campus 7:</div>
-              <p class="text-sm text-gray-400">
-                You'll achieve peak physical condition, unlimited energy, mental clarity, and optimal health for life
-              </p>
-            </div>
-          </div>
-
-          {/* Campus 8: Wealth Creation */}
-          <div class="card border-2 border-rose-500">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 flex items-center justify-center text-white text-2xl font-bold">
-                08
-              </div>
-              <div>
-                <h3 class="text-3xl font-bold">Wealth Creation Campus</h3>
-                <div class="flex gap-2 mt-2">
-                  <span class="badge badge-gold text-xs">8 Weeks</span>
-                  <span class="badge badge-gold text-xs">32 Lessons</span>
-                </div>
-              </div>
-            </div>
-
-            <p class="text-gray-300 mb-6">
-              Build multiple income streams—real estate, business, dividends, royalties, and passive wealth systems
-            </p>
-
-            <div class="space-y-4">
-              <div class="border-l-4 border-rose-500 pl-4">
-                <div class="font-bold text-rose-400">Weeks 57-60: Multi-Stream Income</div>
-                <p class="text-sm text-gray-400">
-                  Real estate investing, dividend portfolios, online business, affiliate systems, royalty income
-                </p>
-              </div>
-              <div class="border-l-4 border-rose-500 pl-4">
-                <div class="font-bold text-rose-400">Weeks 61-64: Legacy Building</div>
-                <p class="text-sm text-gray-400">
-                  Wealth preservation, generational wealth, trust structures, philanthropic strategies, exit planning
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-6 p-4 bg-rose-900/20 rounded border border-rose-500/30">
-              <div class="font-bold text-rose-400 mb-2">After Campus 8:</div>
-              <p class="text-sm text-gray-400">
-                You'll have 5+ income streams, growing passive wealth, protected legacy, and true financial freedom
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Complete Transformation */}
-        <div class="card bg-gradient-to-r from-purple-900/40 to-pink-900/40 border-2 border-yellow-500 mt-12">
-          <div class="text-center">
-            <h3 class="text-3xl font-bold mb-6">
-              <i class="fas fa-crown mr-2 text-yellow-400"></i>
-              The Complete Speculator Transformation
-            </h3>
-            <p class="text-xl text-gray-300 mb-8">
-              64 weeks. 8 campuses. 320+ lessons. Complete life mastery.
-            </p>
-            <div class="grid md:grid-cols-4 gap-6">
-              <div class="text-center">
-                <div class="text-5xl mb-3">💰</div>
-                <div class="font-bold text-lg mb-2">Wealth Mastery</div>
-                <p class="text-sm text-gray-400">Trading + multiple income streams</p>
-              </div>
-              <div class="text-center">
-                <div class="text-5xl mb-3">💪</div>
-                <div class="font-bold text-lg mb-2">Peak Health</div>
-                <p class="text-sm text-gray-400">Fitness + nutrition + longevity</p>
-              </div>
-              <div class="text-center">
-                <div class="text-5xl mb-3">🌴</div>
-                <div class="font-bold text-lg mb-2">Lifestyle Freedom</div>
-                <p class="text-sm text-gray-400">Work anywhere, time freedom</p>
-              </div>
-              <div class="text-center">
-                <div class="text-5xl mb-3">🏛️</div>
-                <div class="font-bold text-lg mb-2">Legacy Building</div>
-                <p class="text-sm text-gray-400">Generational wealth + impact</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     {/* FINAL CTA */}
-    <section class="py-20 bg-slate-900">
+    <section class="py-20 bg-slate-950">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="card bg-gradient-to-r from-blue-900/40 to-purple-900/40 border-2 border-yellow-500">
           <h2 class="text-4xl font-bold mb-6">
-            Ready to Become The <span class="gradient-text">Complete Speculator</span>?
+            Ready to Master This <span class="gradient-text">Complete System</span>?
           </h2>
           <p class="text-xl text-gray-300 mb-8">
-            64 weeks of comprehensive training, 8 complete campuses, 320+ lessons, lifetime access to everything
+            32 weeks of comprehensive training, 160+ lessons, 40+ live sessions, lifetime access
           </p>
           
           <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">

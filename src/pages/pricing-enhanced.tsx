@@ -4,7 +4,7 @@ export const enhancedPricingPage = () => (
     {/* Urgent Announcement Bar */}
     <div class="bg-gradient-to-r from-red-600 to-orange-600 text-white py-3 px-4 text-center font-bold animate-pulse">
       <i class="fas fa-fire mr-2"></i>
-      LIMITED TIME: Only 23 Spots Left in January Cohort - Prices Increase in 4 Days!
+      LIMITED TIME: Only 23 Spots Left - 8 Complete Campuses - Transform Your Entire Life - Prices Increase in 4 Days!
       <i class="fas fa-fire ml-2"></i>
     </div>
 
@@ -17,13 +17,13 @@ export const enhancedPricingPage = () => (
             SPECIAL LAUNCH PRICING - 40% OFF
           </div>
           <h1 class="text-5xl md:text-6xl font-bold mb-6">
-            Choose Your <span class="gradient-text">Trading Path</span>
+            Choose Your <span class="gradient-text">Transformation Path</span>
           </h1>
           <p class="text-2xl text-gray-300 mb-4 max-w-4xl mx-auto">
-            Start with any tier and upgrade anytime as you grow
+            From Trading Mastery to Complete Life Optimization - Start Anywhere, Upgrade Anytime
           </p>
           <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-            All plans include 14-day money-back guarantee, lifetime access to content, and the ability to cancel anytime
+            All plans include 14-day money-back guarantee, lifetime access to 8 campuses, and the ability to cancel anytime
           </p>
         </div>
 
@@ -239,11 +239,15 @@ export const enhancedPricingPage = () => (
               </div>
               <div class="flex items-start gap-2">
                 <i class="fas fa-check text-green-400 mt-1"></i>
-                <span class="text-sm font-bold text-yellow-400">ALL 4 Campuses (32 weeks)</span>
+                <span class="text-sm font-bold text-yellow-400">ALL 8 Campuses (64 weeks)</span>
               </div>
               <div class="flex items-start gap-2">
                 <i class="fas fa-check text-green-400 mt-1"></i>
-                <span class="text-sm">160+ Total Video Lessons</span>
+                <span class="text-sm">320+ Total Video Lessons</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <i class="fas fa-check text-green-400 mt-1"></i>
+                <span class="text-sm font-bold text-yellow-400">Lifestyle + Financial + Fitness + Wealth</span>
               </div>
               <div class="flex items-start gap-2">
                 <i class="fas fa-check text-green-400 mt-1"></i>
@@ -520,11 +524,18 @@ export const enhancedPricingPage = () => (
                 <td class="p-4 text-center"><i class="fas fa-check text-green-400"></i></td>
               </tr>
               <tr class="border-b border-slate-800">
+                <td class="p-4 font-bold">Total Campuses</td>
+                <td class="p-4 text-center">1</td>
+                <td class="p-4 text-center">2</td>
+                <td class="p-4 text-center font-bold text-purple-400">8</td>
+                <td class="p-4 text-center font-bold text-yellow-400">8</td>
+              </tr>
+              <tr class="border-b border-slate-800">
                 <td class="p-4 font-bold">Total Video Lessons</td>
                 <td class="p-4 text-center">32</td>
                 <td class="p-4 text-center">72</td>
-                <td class="p-4 text-center font-bold text-purple-400">160+</td>
-                <td class="p-4 text-center font-bold text-yellow-400">160+</td>
+                <td class="p-4 text-center font-bold text-purple-400">320+</td>
+                <td class="p-4 text-center font-bold text-yellow-400">320+</td>
               </tr>
             </tbody>
           </table>

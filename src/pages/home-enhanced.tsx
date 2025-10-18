@@ -4,7 +4,7 @@ export const enhancedHomePage = () => (
     {/* URGENT ANNOUNCEMENT BAR */}
     <div class="bg-gradient-to-r from-red-600 to-orange-600 text-white py-3 px-4 text-center font-bold animate-pulse">
       <i class="fas fa-fire mr-2"></i>
-      LIMITED TIME: Only 23 Spots Left in January Cohort - Enrollment Closes in 4 Days!
+      LIMITED TIME: Only 23 Spots Left in January Cohort - 8 Complete Campuses - Enrollment Closes in 4 Days!
       <i class="fas fa-fire ml-2"></i>
     </div>
 
@@ -34,39 +34,39 @@ export const enhancedHomePage = () => (
 
           {/* Headline - Problem + Solution */}
           <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Stop Losing Money to<br />
-            <span class="gradient-text">Market Makers</span> and<br />
-            Start Trading Like <span class="text-yellow-400">Wall Street</span>
+            Become The <span class="gradient-text">Complete Speculator</span><br />
+            Master Trading, Wealth, Health & <span class="text-yellow-400">Lifestyle</span>
           </h1>
 
           {/* Sub-headline - Big Promise */}
           <p class="text-2xl md:text-3xl text-yellow-400 font-bold mb-4">
-            Learn The EXACT Strategies Institutional Traders Use to Extract $10K-$50K Monthly From Futures Markets
+            The Only University Training Complete Speculators: Trading Mastery + Financial Health + Peak Fitness + Wealth Creation
           </p>
 
           <p class="text-xl text-gray-300 mb-8 max-w-4xl mx-auto">
-            Finally, a step-by-step system that shows you how to identify high-probability setups, 
-            exploit market maker behavior, and trade with 70%+ win rates—without indicators, 
-            guesswork, or gambling. <span class="text-yellow-400 font-bold">GUARANTEED.</span>
+            8 comprehensive campuses covering institutional trading strategies, lifestyle design, 
+            financial optimization, fitness protocols, and multi-stream wealth creation. 
+            Build the life of freedom, health, and abundance you deserve. 
+            <span class="text-yellow-400 font-bold">GUARANTEED.</span>
           </p>
 
           {/* Urgency CTAs */}
           <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <a href="/waitlist" class="btn btn-gold text-xl px-8 py-4 shadow-2xl hover:scale-105 transition-transform">
               <i class="fas fa-bolt mr-2"></i>
-              CLAIM YOUR SPOT NOW - $97/mo
+              BEGIN YOUR TRANSFORMATION - $197/mo
               <i class="fas fa-arrow-right ml-2"></i>
             </a>
             <a href="#proof" class="btn btn-secondary text-lg">
               <i class="fas fa-play-circle mr-2"></i>
-              Watch Student Results
+              See Member Transformations
             </a>
           </div>
 
           {/* Risk Reversal */}
           <div class="text-center text-gray-400 text-sm">
             <i class="fas fa-shield-alt text-green-500 mr-2"></i>
-            14-Day Money-Back Guarantee • Cancel Anytime • Join 500+ Successful Traders
+            14-Day Money-Back Guarantee • Cancel Anytime • Join 500+ Guild Members
           </div>
         </div>
 
