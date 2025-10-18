@@ -56,7 +56,7 @@ export function downloadsPage() {
                         Access all curriculum files directly from our GitHub repository. 
                         You can view, download, or clone the entire repository.
                     </p>
-                    <a href="https://github.com/YOUR_USERNAME/webapp" 
+                    <a href="https://github.com/flgolftrader/tsg-university-curriculum" 
                        target="_blank"
                        class="btn btn-primary inline-flex items-center">
                         <i class="fab fa-github mr-2"></i>
@@ -106,7 +106,7 @@ export function downloadsPage() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <a href="https://github.com/YOUR_USERNAME/webapp/blob/main/COMPLETE_CURRICULUM.md" 
+                                <a href="https://github.com/flgolftrader/tsg-university-curriculum/blob/main/COMPLETE_CURRICULUM.md" 
                                    target="_blank"
                                    class="btn btn-sm btn-secondary">
                                     <i class="fas fa-external-link-alt mr-1"></i> View
@@ -132,7 +132,7 @@ export function downloadsPage() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <a href="https://github.com/YOUR_USERNAME/webapp/blob/main/CAMPUS_1_COMPLETE.md" 
+                                <a href="https://github.com/flgolftrader/tsg-university-curriculum/blob/main/CAMPUS_1_COMPLETE.md" 
                                    target="_blank"
                                    class="btn btn-sm btn-secondary">
                                     <i class="fas fa-external-link-alt mr-1"></i> View
@@ -158,7 +158,7 @@ export function downloadsPage() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <a href="https://github.com/YOUR_USERNAME/webapp/blob/main/CAMPUS_2-8_COMPLETE.md" 
+                                <a href="https://github.com/flgolftrader/tsg-university-curriculum/blob/main/CAMPUS_2-8_COMPLETE.md" 
                                    target="_blank"
                                    class="btn btn-sm btn-secondary">
                                     <i class="fas fa-external-link-alt mr-1"></i> View
@@ -184,7 +184,7 @@ export function downloadsPage() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <a href="https://github.com/YOUR_USERNAME/webapp/blob/main/CURRICULUM_IMPLEMENTATION_SUMMARY.md" 
+                                <a href="https://github.com/flgolftrader/tsg-university-curriculum/blob/main/CURRICULUM_IMPLEMENTATION_SUMMARY.md" 
                                    target="_blank"
                                    class="btn btn-sm btn-secondary">
                                     <i class="fas fa-external-link-alt mr-1"></i> View
@@ -210,7 +210,7 @@ export function downloadsPage() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <a href="https://github.com/YOUR_USERNAME/webapp/blob/main/IMPLEMENTATION_ROADMAP.md" 
+                                <a href="https://github.com/flgolftrader/tsg-university-curriculum/blob/main/IMPLEMENTATION_ROADMAP.md" 
                                    target="_blank"
                                    class="btn btn-sm btn-secondary">
                                     <i class="fas fa-external-link-alt mr-1"></i> View
@@ -236,7 +236,7 @@ export function downloadsPage() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <a href="https://github.com/YOUR_USERNAME/webapp/blob/main/CURRICULUM_PDF_GENERATION_GUIDE.md" 
+                                <a href="https://github.com/flgolftrader/tsg-university-curriculum/blob/main/CURRICULUM_PDF_GENERATION_GUIDE.md" 
                                    target="_blank"
                                    class="btn btn-sm btn-secondary">
                                     <i class="fas fa-external-link-alt mr-1"></i> View
@@ -262,7 +262,7 @@ export function downloadsPage() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <a href="https://github.com/YOUR_USERNAME/webapp/blob/main/COMPLETE_DELIVERY_SUMMARY.md" 
+                                <a href="https://github.com/flgolftrader/tsg-university-curriculum/blob/main/COMPLETE_DELIVERY_SUMMARY.md" 
                                    target="_blank"
                                    class="btn btn-sm btn-secondary">
                                     <i class="fas fa-external-link-alt mr-1"></i> View
@@ -288,7 +288,7 @@ export function downloadsPage() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <a href="https://github.com/YOUR_USERNAME/webapp/blob/main/SESSION_SUMMARY.md" 
+                                <a href="https://github.com/flgolftrader/tsg-university-curriculum/blob/main/SESSION_SUMMARY.md" 
                                    target="_blank"
                                    class="btn btn-sm btn-secondary">
                                     <i class="fas fa-external-link-alt mr-1"></i> View
@@ -386,7 +386,7 @@ export function downloadsPage() {
                 Download the complete curriculum and begin your journey to trading mastery
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://github.com/YOUR_USERNAME/webapp" 
+                <a href="https://github.com/flgolftrader/tsg-university-curriculum" 
                    target="_blank"
                    class="btn btn-primary btn-lg inline-flex items-center justify-center">
                     <i class="fab fa-github mr-2"></i>
